@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+
+    .fade-enter-active,
+    .fade-leave-active {
+        transition: opacity 0.3s;
+    }
+
+    .fade-enter,
+    .fade-leave-to {
+        opacity: 0;
+    }
+    
+    .pointer {
+        cursor: pointer;
+    }
+
+    .v-btn__content {
+        text-transform: initial;
+    }
+    .hero-bg {
+        background: url("./assets/img/Backgroud-img.jpg") no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 750px;
+    }
+
+    .product-container {
+        width: 40%;
+        margin: auto;
+    }
+}
